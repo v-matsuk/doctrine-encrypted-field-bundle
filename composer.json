@@ -1,0 +1,24 @@
+{
+  "name": "v-matsuk/doctrine-encrypted-field-bundle",
+  "description": "A simple Symfony bundle that helps to encrypt specific text fields for doctrine entities.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "keywords": ["doctrine encryption", "symfony entity encryption", "symfony", "symfony bundle", "encryption"],
+  "authors": [{
+    "name": "Vitaly Matsuk",
+    "email": "vitalymatsuk@gmail.com"
+  }],
+  "require": {
+    "php": ">=7.4",
+    "symfony/framework-bundle": "^5.0 || ^6.0",
+    "symfony/console": "^5.0 || ^6.0",
+    "symfony/property-access": "^5.0 || ^6.0",
+    "doctrine/orm": "^2.6 || ^3.0",
+    "paragonie/halite": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "VM\\DoctrineEncryptedFieldBundle\\": "src/"
+    }
+  }
+}
